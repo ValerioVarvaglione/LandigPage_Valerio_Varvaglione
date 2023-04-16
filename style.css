@@ -1,0 +1,183 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+  :root{
+    --grey:#ababab;
+    --grey-dark:#474444de;
+    --light-grey:#dbdada;
+  }
+
+  *{
+    font-family: 'Roboto', sans-serif;
+  }
+
+ .back-color{
+   background-image: linear-gradient(to right top, #272727, #2e2e2e, #363636, #3e3e3e, #464646, #545454, #626262, #707070, #888888, #a1a1a1, #bbbbbb, #d5d5d5);
+ }
+
+ .google-Badge{
+    width: 155px;
+ }
+
+ /* .h1-title{
+    font-size: 30px;
+ } */
+
+  .container{
+    max-width: 1200px;
+  }
+
+  .display-1{
+    letter-spacing: 1px;
+  }
+
+  /* .title-h1{
+    font-size: 60px;
+  } */
+
+  .bg-green{
+    background-color: var(--grey-dark)!important;
+  }
+
+.btn{
+    border: 2px solid #fff;
+    border-radius: 1.5rem;
+    padding: 0.6rem 0;
+    width: 160px;
+}
+
+.bg-grey{
+    background-color: var(--light-grey);
+}
+
+.circle-icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1.5px solid var(--grey-dark);
+    color: var(--grey-dark);
+}
+
+.circle-icon1{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    color: var(--grey-dark);
+}
+
+
+
+.my-icon{
+    color: var(--grey-dark);
+}
+
+.lh-lg{
+    line-height: 1.7!important;
+}
+
+.btn-green{
+   
+    color: #0c0c0c;
+    padding: 0.55rem 0;
+    width: 140px;
+   
+}
+
+.btn-header{
+    background-color: rgba(30, 151, 30, 0.885);
+    color: #fff;
+    border: none;
+}
+
+.btn-green{
+    background-color: rgba(30, 151, 30, 0.885);
+    color: #fff;
+    border: none; 
+}
+
+.btn-green:hover{
+    background-color: transparent!important;
+    color: #121212;
+    border: 1px solid;
+}
+
+.text-green{
+    color: var(--green);
+}
+
+.header{
+    height: 100vh;
+}
+
+.navbar-brand .fa{
+    font-size: 1.3rem;
+
+}
+
+.nav-icons{
+    font-size: 1.5rem;
+}
+
+.nav-icons p{
+font-size: 1.5rem;
+margin-right: 0.6rem;
+}
+
+.btn-header:hover{
+    background-color: transparent!important;
+    color: #fff;
+    border: 1px solid;
+    
+}
+
+.phone-img img{
+    width: 400px;
+}
+
+#sec-6{
+    background: linear-gradient(rgba(108, 111, 110, 0.9), rgba(116, 119, 118, 0.9)), url(media/section-6-bg.jpg) center/cover no-repeat;
+}
+
+#sec-6 .circle-icon{
+    width: 90px;
+    height: 90px;
+  
+}
+
+#sec-7 .card{
+    border: none;
+
+}
+
+#sec-8 .carousel-item img{
+    width: 180px!important;
+}
+
+/* Section 9 */
+.pricing-item{
+    border: #f1f4f6;
+    border-radius: 0.3rem;
+    overflow: hidden;
+    max-width: 300px;
+    
+}
+
+
+
+.pricing-title{
+    background-color: var(--green-dark);
+
+}
+
+.pricing-price, .pricing-item ul li{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0.9rem 0;
+}
+
+.pricing-item .btn:hover{
+    background-color: transparent!important;
+    color: #fff;
+    border: 1px solid;
+}
+
