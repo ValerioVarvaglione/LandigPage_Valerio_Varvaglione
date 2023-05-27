@@ -12,12 +12,30 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  .bg{
+    background-image: linear-gradient(to right top, #18191a, #232324, #191c1c, #1e211f, #242522); 
+    background: transparent;
+    
+  }
+
+  .navbar{
+    padding: 1;
+    background: rgb(40,38,39);
+    background: radial-gradient(circle, rgba(40,38,39,1) 0%, rgba(26,27,28,1) 100%);
+  }
+
+
+
  .back-color{
    background-image: linear-gradient(to right top, #272727, #2e2e2e, #363636, #3e3e3e, #464646, #545454, #626262, #707070, #888888, #a1a1a1, #bbbbbb, #d5d5d5);
  }
 
  .google-Badge{
     width: 155px;
+ }
+
+ .logo{
+    width: 120px;
  }
 
  /* .h1-title{
